@@ -1,0 +1,35 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    It helped me visually notice much easier what changes were made between the files and therefore the bug.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Having easy access to the entire history of a file will allow for programmers to rollback to earlier stages if there a bug is introduced or
+    will be able to compare previous versions to determine where a bug is.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+
+    If the versions are automatically saved then often versions that do not have any logical consistency as a component of change will not be saved,
+    but rather random saves every hour or so. If it is manually committed you save the changes at relevant points of time such as when new features
+    are introduced.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+
+    Because when you develop a project you often make changes to multiple files that are interconnected that should be committed together.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the whole commit history of the repository
+    git diff shows the difference between two commits
+
+6. How might using version control make you more confident to make changes that could break something?
+
+    With the functionality to just revert back to a state where what you were developing was working, it is much easier to test larger blocks of code
+    or larger logical segments without having to worry about breaking the program. Which in effect makes you more confident in making changes that could 
+    break something.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+    Something a little more complex. Maybe involving react.
