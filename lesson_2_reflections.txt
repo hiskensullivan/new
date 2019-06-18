@@ -2,4 +2,8 @@
 
     It creates a .git folder to initialize the repository. 
 
-2. 
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area is essentially a logical area that you can selectively add the changes you made in the working directory. The user can then commit
+    those changes to the repository. It offers code isolation and the ability to see what the differences are between the working directory and the repository,
+    as well as the ability to selectively commit logical components together as opposed to all the changes you made since the last commit.
