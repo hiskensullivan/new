@@ -7,3 +7,17 @@
     The staging area is essentially a logical area that you can selectively add the changes you made in the working directory. The user can then commit
     those changes to the repository. It offers code isolation and the ability to see what the differences are between the working directory and the repository,
     as well as the ability to selectively commit logical components together as opposed to all the changes you made since the last commit.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+    By adding just the logical changes to the staging area then commiting that change.
+
+4. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    The result of merging two branches is the changes made in the two being combined into one. It is represented in the diagram the way it is because 
+    it serves as visual aid in how the commits branch out.
+
+5. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Manual merges are tedious when done over and over again but ensures accuracy. Automatic merging may incur conflicts.
+
