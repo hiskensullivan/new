@@ -7,3 +7,9 @@
     Because it might make updates to your current working project that you do not want. Multiple people could be working on different things locally where 
     if updated from remote it could cause problems.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    Fork essentially clones the original repository to my own remote repository on github I would use this when wanting to not make changes to the original.
+    github repo. Clone pulls the remote repository to local repository. This would be done when you want to make changes locally then have a remote to have
+    as a backup and work collaboratively. 
+    A branch is a labelled commit that you want to use when working on a different feature/version of your project.
